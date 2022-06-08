@@ -14,6 +14,7 @@
 		0EF2D7462851092C00A81797 /* Audio_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF2D7452851092C00A81797 /* Audio_PlayerTests.swift */; };
 		0EF2D7502851092C00A81797 /* Audio_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF2D74F2851092C00A81797 /* Audio_PlayerUITests.swift */; };
 		0EF2D7522851092C00A81797 /* Audio_PlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF2D7512851092C00A81797 /* Audio_PlayerUITestsLaunchTests.swift */; };
+		0EF2D75F28510A6200A81797 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EF2D75E28510A6200A81797 /* audio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0EF2D74B2851092C00A81797 /* Audio PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Audio PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF2D74F2851092C00A81797 /* Audio_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio_PlayerUITests.swift; sourceTree = "<group>"; };
 		0EF2D7512851092C00A81797 /* Audio_PlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio_PlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0EF2D75E28510A6200A81797 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		0EF2D7332851092A00A81797 /* Audio Player */ = {
 			isa = PBXGroup;
 			children = (
+				0EF2D75E28510A6200A81797 /* audio.mp3 */,
 				0EF2D7342851092A00A81797 /* Audio_PlayerApp.swift */,
 				0EF2D7362851092A00A81797 /* ContentView.swift */,
 				0EF2D7382851092C00A81797 /* Assets.xcassets */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EF2D73C2851092C00A81797 /* Preview Assets.xcassets in Resources */,
+				0EF2D75F28510A6200A81797 /* audio.mp3 in Resources */,
 				0EF2D7392851092C00A81797 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
